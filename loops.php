@@ -84,3 +84,23 @@ foreach ($a1 as $marks) {
 
 	}
 }
+
+
+
+// Using While Loop
+
+$a1 = array(
+		array("company" => "Honda", "Car" => "Civic", "Engine" => "VVti Vitexc"),
+		array("company" => "Suzuki", "Car" => "Alto", "Engine" => "Bugati")
+	  );-
+
+$length = count($a1);        //For counting the length of array
+
+$i=0;
+
+while($i < $length){
+	if($a1[$i]["company"] == "Honda"){
+		echo $a1[$i]["company"] . " has " . $a1[$i]["Car"] . " car which have " . $a1[$i]["Engine"] . ". <br />";
+	}
+	$i++;
+}
