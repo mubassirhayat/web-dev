@@ -60,10 +60,6 @@ $a1 = array(45, 94, 81, 41, 82);
 
 foreach ($a1 as $marks) {
 	# code...
-}
-
-foreach ($a1 as $marks) {
-	# code...
 	if($marks <= 100 && $marks >= 80){
 		echo $marks . " makes grade of A <br />"; 
 
