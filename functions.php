@@ -1,5 +1,5 @@
 <?php
-
+echo "these are listed functions";
 function redirect_to( $location = NULL ) {
       // Function to redirect to other pages
     if ($location != NULL) {
